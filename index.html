@@ -9,38 +9,26 @@
 </head>
 
 <body>
-    <header class="header">
-     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, quo?</p>
-    </header>
+    <!-- <input type="text" id="num1">
+    <input type="text" id="num2"> -->
 
-    <main class="main">
-        <section class="primary">
-
-        </section>
-
-        <section class="features">
-
-        </section>
-    </main>
-
-
-    <footer class="footer">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo temporibus adipisci eaque
-            dignissimos ullam harum repudiandae, neque placeat error qui quas, nam vitae modi laborum praesentium
-            inventore iste ducimus.</p>
-    </footer>
-
+     <button id="btn1">Add</button>
+     <button id="btn2">Add</button>
+     <button id="btn3">Add</button>
+     <button id="btn4">Add</button>
+     <button id="btn5">Add</button>
 
     <script>
 
+            document.getElementById('btn5').addEventListener('click', function(){
+                console.log("hello...")
+            })
+
+
+
             function add(a, b){  //calee      
-              return a + b
+              console.log(a + b) 
             }
-
-            console.log(add(14, 56)) //caller
-            console.log(add(14, 56) * 8)
-
-
 
             
            function login (user, password){
