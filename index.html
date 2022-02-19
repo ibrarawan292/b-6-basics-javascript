@@ -1,67 +1,116 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="header">
 
+    </header>
 
+    <main class="main">
+        <section class="primary">
 
-  <main class="main">
-    <section class="primary">
+        </section>
 
+        <section class="features">
 
-    </section>
-
-    <section class="features">
-
-      </section>
-  </main>
+        </section>
+    </main>
 
 
     <footer class="footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloremque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo temporibus adipisci eaque
+            dignissimos ullam harum repudiandae, neque placeat error qui quas, nam vitae modi laborum praesentium
+            inventore iste ducimus.</p>
     </footer>
 
 
     <script>
 
-      let person = {
-        name: "yasir ali",
-        age: 56,
-        class: "mcs",
-        meritalstatus: true,
-        contact: '03021546798',
-        display: function () {
-          console.log ('from inside the object...')
-        }
-      }
+            function add(a, b){  //calee      
+              return a + b
+            }
 
-      console.log(person.display())
-       
-      //  let marks =  [];
-
-      //  marks.push(45,78,45,96)
-
-      //  if (marks.length < 1){
-      //      alert("No Record Found...")
-          
-      //  } else {
-      //     for(let i=0; i< marks.length; i++){
-      //       console.log(marks[i])
-      //   }
-      //  }
-       
+            console.log(add(14, 56)) //caller
+            console.log(add(14, 56) * 8)
 
 
-    //1- array is an object in javascript
-    //2- array (object) can have two things associated with it, methods and properties
-    //3- difference between function and methods
+
+            
+           function login (user, password){
+              if (user === 'yasir' && password === '12345678'){
+              return true
+           } else {
+             return false
+           }
+          }
+          console.log(login('sdr.yasir', '12345678'))
+            
+
+       let persons = [
+           {
+            name: "yasir Ali",
+            age: 58,
+            class: "MCS",
+            meritalStatus: true,
+            cnstact: '03356987456',
+           },
+           {
+            name: "Ali",
+            age: 45,
+            class: "MC",
+            meritalStatus: true,
+            cnstact: '03356987456',
+           },
+           {
+            name: "zahid",
+            age: 58,
+            class: "MCS",
+            meritalStatus: true,
+            cnstact: '03356987456',
+           },
+           {
+            name: "yasir Ali",
+            age: 58,
+            class: "MCS",
+            meritalStatus: true,
+            cnstact: '03356987456',
+           },
+           {
+            name: "yasir Ali",
+            age: 58,
+            class: "MCS",
+            meritalStatus: true,
+            cnstact: '03356987456',
+           }
+       ]
+
+  
+
+
+
+
+
+
+
+
+
+        //1 - array is an object in JavaScript
+        //2 - Array (Objects) can have two things associated with it, methods and properties
+        //3 - difference between function and methods
+        //4 - type inference
+        //5 - mutation
+        //6 - anonymous function
+        //7-  Hoisting
 
     </script>
+
 </body>
+
 </html>
